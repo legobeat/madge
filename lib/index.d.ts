@@ -265,6 +265,10 @@ declare namespace madge {
      *
      * @default undefined
      */
-    dependencyFilter?: (id: string) => boolean;
+    dependencyFilter?: (
+      dependencyFilePath: string,
+      traversedFilePath: string,
+      baseDir: string,
+    ) => boolean;
   }
 }
