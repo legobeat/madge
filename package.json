@@ -24,6 +24,7 @@
     "node": ">=14"
   },
   "main": "./lib/api",
+  "types": "./lib/index.d.ts",
   "bin": {
     "madge": "./bin/cli.js"
   },
