@@ -27,7 +27,7 @@
 
 Read the [changelog](CHANGELOG.md) for latest changes.
 
-> I've worked with Madge on my free time for the last couple of years and it's been a great experience. It started as an experiment but turned out to be a very useful tool for many developers. I have many ideas for the project and it would definitely be easier to dedicate more time to it with some [financial support](#donations) 🙏
+> I've worked with Madge on my free time for the last couple of years and it's been a great experience. It started as an experiment but turned out to be a very useful tool for many developers. I have many ideas for the project and it would definitely be easier to dedicate more time to it with some [financial support](#donations-%EF%B8%8F) 🙏
 >
 > Regardless of your contribution, thanks for your support!
 
@@ -443,6 +443,25 @@ Put this in your madge config.
 }
 ```
 
+## How to ignore dynamic imports in Typescript?
+
+Put this in your madge config.
+
+```json
+{
+	"detectiveOptions": {
+		"ts": {
+			"skipAsyncImports": true
+		},
+		"tsx": {
+			"skipAsyncImports": true
+		}
+	}
+}
+```
+
+Note: `tsx` is optional, use this when working with JSX.
+
 ## Mixing TypesScript and Javascript imports?
 
 Ensure you have this in your `.tsconfig` file.
@@ -496,7 +515,7 @@ This project exists thanks to all the people who contribute.
 
 ## Donations ❤️
 
-Thanks to the awesome people below for making donations! 🙏[[Donate](https://paypal.me/pahen)]
+Thanks to the awesome people below for making donations! 🙏[Donate](https://paypal.me/pahen)
 
 <p>
   <a href="https://github.com/BeroBurny" target="_blank">
